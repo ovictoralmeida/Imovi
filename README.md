@@ -3,4 +3,4 @@
 
 Curso fundamentos de Bootstrap - Hora de Codar
 
-VEJA O RESULTADO → https://ovictoralmeida.github.io/Imovi/
+VEJA O RESULTADO ➜ https://ovictoralmeida.github.io/Imovi/
