@@ -101,7 +101,7 @@
 
 @media(min-width: 768px) {
     #slider .carousel-caption {
-        bottom: 15em;
+        bottom: 10em;
     }
 
     #slider .carousel-caption h5 {
@@ -116,6 +116,12 @@
 
     .carousel-indicators {
         bottom: 7em;
+    }
+
+    @media(min-width: 992px) {
+        #slider .carousel-caption {
+            bottom: 15em;
+        }
     }
 }
 
@@ -211,6 +217,20 @@
 }
 
 /* INFO */
+.info-title {
+    font-size: 1.75em;
+    margin-bottom: .4em;
+    position: relative;
+}
+
+.info-title:before {
+    width: 75px;
+    border-top: 4px solid #7a7a7a;
+    content: '';
+    position: absolute;
+    bottom: 2em;
+}
+
 #info-content {
     margin-bottom: 4em;
     padding: 4em 1em;
@@ -233,6 +253,20 @@
 @media(min-width: 768px) {
     #info-content {
         padding: 3.5em;
+    }
+
+    .info-title {
+        font-size: 2.4em;
+    }
+
+    .info-title:before {
+        bottom: 2.8em;
+    }
+}
+
+@media(min-width: 992px) {
+    .info-title:before {
+        bottom: 1.5em;
     }
 }
 
